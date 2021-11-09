@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-		5E555C0D2413F4C50049A1A2 /* ReactNativeComponentsCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* ReactNativeComponentsCamera.m */; };
-
+		140FA849273A80460018F9C7 /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 140FA845273A80460018F9C7 /* CameraManager.m */; };
+		140FA84A273A80460018F9C7 /* CameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 140FA847273A80460018F9C7 /* CameraView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,10 +25,10 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libReactNativeComponentsCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libReactNativeComponentsCamera.a; sourceTree = BUILT_PRODUCTS_DIR; };
-
-		B3E7B5881CC2AC0600A0062D /* ReactNativeComponentsCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactNativeComponentsCamera.h; sourceTree = "<group>"; };
-		B3E7B5891CC2AC0600A0062D /* ReactNativeComponentsCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactNativeComponentsCamera.m; sourceTree = "<group>"; };
-
+		140FA845273A80460018F9C7 /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
+		140FA846273A80460018F9C7 /* CameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraView.h; sourceTree = "<group>"; };
+		140FA847273A80460018F9C7 /* CameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraView.m; sourceTree = "<group>"; };
+		140FA848273A80460018F9C7 /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +53,10 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-
-				B3E7B5881CC2AC0600A0062D /* ReactNativeComponentsCamera.h */,
-				B3E7B5891CC2AC0600A0062D /* ReactNativeComponentsCamera.m */,
-
+				140FA848273A80460018F9C7 /* CameraManager.h */,
+				140FA845273A80460018F9C7 /* CameraManager.m */,
+				140FA846273A80460018F9C7 /* CameraView.h */,
+				140FA847273A80460018F9C7 /* CameraView.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,9 +118,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-				B3E7B58A1CC2AC0600A0062D /* ReactNativeComponentsCamera.m in Sources */,
-
+				140FA849273A80460018F9C7 /* CameraManager.m in Sources */,
+				140FA84A273A80460018F9C7 /* CameraView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,7 +232,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ReactNativeComponentsCamera;
 				SKIP_INSTALL = YES;
-
 			};
 			name = Debug;
 		};
@@ -251,7 +248,6 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ReactNativeComponentsCamera;
 				SKIP_INSTALL = YES;
-
 			};
 			name = Release;
 		};

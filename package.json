@@ -1,6 +1,6 @@
 {
   "name": "@aomi/react-native-components-camera",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "React Native Camera",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
